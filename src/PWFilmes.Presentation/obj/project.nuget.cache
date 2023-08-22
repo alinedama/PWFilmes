@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Eof4hgSlaWLi8P+fI1kKJc8HOyAD+nARn4suJAXPWjTAEGIj2Egk7pd8ZQHKq+Ct5u8JFPUQ4Lu/kkKUifR3Cw==",
+  "dgSpecHash": "g56BrK99Bbrz0oFCrOeo4b1fwkkTYu4jJTzF7lRKI1vATq9jHPrcS3nWaRWntKENSZRWN9kCiw4wHqb7g7fkHg==",
   "success": true,
-  "projectFilePath": "C:\\pw\\PWFilmes\\src\\PWFilmes.Presentation\\PWFilmes.Presentation.csproj",
+  "projectFilePath": "C:\\bd\\PWFilmes\\src\\PWFilmes.Presentation\\PWFilmes.Presentation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Etec\\.nuget\\packages\\blazor.bootstrap\\1.10.0\\blazor.bootstrap.1.10.0.nupkg.sha512",
     "C:\\Users\\Etec\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\Etec\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
     "C:\\Users\\Etec\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.17\\microsoft.aspnetcore.components.analyzers.5.0.17.nupkg.sha512",
