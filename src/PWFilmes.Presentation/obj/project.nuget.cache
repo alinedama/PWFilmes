@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OCwusgTuzZ/2zO/+kOU1pzHvyzEusX+Oms34VfwrRIgujI/cQtwfkGN9RqDjnBnTllUg7WNI5IZQllb5xIcS6A==",
+  "dgSpecHash": "Eof4hgSlaWLi8P+fI1kKJc8HOyAD+nARn4suJAXPWjTAEGIj2Egk7pd8ZQHKq+Ct5u8JFPUQ4Lu/kkKUifR3Cw==",
   "success": true,
-  "projectFilePath": "C:\\PWFilmes\\src\\PWFilmes.Presentation\\PWFilmes.Presentation.csproj",
+  "projectFilePath": "C:\\pw\\PWFilmes\\src\\PWFilmes.Presentation\\PWFilmes.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Etec\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\Etec\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
