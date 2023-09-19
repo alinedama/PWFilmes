@@ -1,5 +1,8 @@
 ﻿@page "/categoria/listar"
 @using PWFilmes.Domain
+@using System.Text.Json
+
+@inject HttpClient Http
 
 <h3>CategoriaListar</h3>
 <RadzenDataGrid AllowFiltering="true"
@@ -26,20 +29,18 @@
 @code {
     List<Categoria> categorias = new List<Categoria>();
 
-    protected override void OnInitialized()
-    {
-        categorias.Add(
-            new Categoria { Codigo = 1, Descricao = "Terror", Cor = "Vermelho" }
-            );
-        categorias.Add(
-           new Categoria { Codigo = 2, Descricao = "Comédia", Cor = "Azul" }
-           );
-        base.OnInitialized();
-    }
 
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        var response = await Http.GetAsync("");
-        return base.OnInitializedAsync();
+        var response = await Http.GetAsync("api/Categoria/listar");
+
+        var content = await response.Content.ReadAsStringAsync();
+
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true }; 
+
+        categorias = JsonSerializer.Deserialize<List<Categoria>>(content, options);
+
+        await base.OnInitializedAsync();
     }
 }
+8
