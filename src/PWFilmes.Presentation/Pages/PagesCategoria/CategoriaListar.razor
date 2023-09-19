@@ -36,4 +36,10 @@
            );
         base.OnInitialized();
     }
+
+    protected override Task OnInitializedAsync()
+    {
+        var response = await Http.GetAsync("");
+        return base.OnInitializedAsync();
+    }
 }
